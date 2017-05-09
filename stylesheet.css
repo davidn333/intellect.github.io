@@ -82,8 +82,9 @@ ul li{
 
 .shpock{
   display:flex;
-  justify-content:center;
+  position:relative;
   top:40%;
+  left:70%;
   height:4rem;
   width:4rem;
 }
