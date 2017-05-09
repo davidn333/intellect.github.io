@@ -1,3 +1,12 @@
 header{
   background: #f7f7f7;
+  height:10rem;
+}
+
+header img{
+  margin:5%;
+}
+
+ul{
+  display:inline;
 }
