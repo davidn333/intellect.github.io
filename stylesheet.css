@@ -1,6 +1,6 @@
 header{
   background: #f7f7f7;
-  height:10rem;
+  height:5rem;
   display:flex;
 }
 
@@ -11,9 +11,10 @@ header img{
 
 ul{
   font-family: 'Roboto';
-  font-size:2rem;
-  font-weight:0.5rem;
+  font-size:1rem;
+  font-weight:0.1rem;
   vertical-align:middle;
+  margin:0;
 }
 
 ul li{  
@@ -23,4 +24,9 @@ ul li{
 
 .fa {
   font-size: 2rem;
+  display:inline;
+}
+
+.fa-angle-down{
+  color:black;
 }
