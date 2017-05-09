@@ -1,7 +1,8 @@
 body{
   background-image:url("/images/rooftop.jpg");
   background-repeat:no-repeat;
-  background-size:cover;  
+  background-size:cover;
+  height:100rem;
 }
 
 header{
