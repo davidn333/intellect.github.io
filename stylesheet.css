@@ -1,14 +1,14 @@
 body{
   background-image:url("/images/rooftop.jpg");
   background-repeat:norepeat;
-  background-size:cover;
-  height:50rem;
+  background-size:contain;  
 }
 
 header{
   background: #f7f7f7;
   height:5rem;
-  display:flex; 
+  display:flex;
+  position:fixed;
   overflow:hidden;
   opacity:0.9;
 }
