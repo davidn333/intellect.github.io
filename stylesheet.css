@@ -9,10 +9,10 @@ header img{
 
 ul{
   font-family: 'Roboto';
-  font-size:2rem;
-  font-weight:0.1rem;
-  top:50%;
-  margin-left:2rem;
+  font-size:1.5rem;
+  font-weight:0.01rem;
+  top:2rem;
+  margin-left:1rem;
 }
 
 ul li{  
@@ -21,7 +21,7 @@ ul li{
 }
 
 .fa {
-  font-size: 2rem;
+  font-size: 1.5rem;
   display:inline;
 }
 
