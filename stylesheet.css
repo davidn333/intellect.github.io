@@ -84,4 +84,6 @@ ul li{
   display:flex;
   justify-content:center;
   top:40%;
+  height:4rem;
+  width:4rem;
 }
