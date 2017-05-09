@@ -1,31 +1,77 @@
+body{
+  background-image:url("/images/rooftop.jpg");
+  background-repeat:norepeat;
+  background-size:cover;
+  height:50rem;
+}
+
 header{
   background: #f7f7f7;
   height:5rem;
-  display:flex;
+  display:flex; 
+  overflow:hidden;
+  opacity:0.9;
 }
 
 header img{ 
+  width:5rem;
 }
 
 ul{
   font-family: 'Roboto';
   font-size:1.5rem;
-  font-weight:0.01rem;
-  top:2rem;
-  margin-left:1rem;
+  font-weight:0.01rem;   
+  padding:0;
+  margin:0;
+  width:100%; 
+  margin-left:2rem;
 }
 
 ul li{  
-  display:inline;  
-  margin-right:5rem;
+  display:inline-flex;
+  padding:1.5rem 5rem 1.5rem 0;
 }
 
 .fa {
   font-size: 1.5rem;
   display:inline;
+  margin-left:0.5rem;
 }
 
-.fa-angle-down{
+
+.products{
+  height:5rem;
+  padding:1.5rem 5rem 1.5rem 0;  
+ 	display:inline-block; 
+   
+}
+
+.products:hover{  
+  color:#74d14c;
+}
+
+.products:hover .dropdown{ 
+  display:block; 
+  border-top:1px solid black;  
+}
+
+.dropdown{
+  display:none;
+  position:absolute;
+  text-align:center;  
+  top:5.5rem;
+  width:12.5rem;    
+}
+
+.dropdown ul{
+  margin:0;
+  padding:0;
+}
+
+.dropdown ul li{
+  background:#f7f7f7;
   color:black;
-  margin-left:0.5rem;
+  padding:0.5rem;
+  font-size:1rem;
+  display:block;
 }
