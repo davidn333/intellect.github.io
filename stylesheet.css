@@ -80,13 +80,16 @@ ul li{
   color:#74d14c;
 }
 
-.shpock a img{
+.shpock{
   display:flex;
   position:relative;
   top:40%;
-  left:70%;
+  left:70%;  
+}
+
+.shpock a img{
   height:4rem;
-  width:4rem;  
+  width:4rem;
 }
 
 .shpock:hover{
