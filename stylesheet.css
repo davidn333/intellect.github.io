@@ -1,6 +1,7 @@
 header{
   background: #f7f7f7;
   height:10rem;
+  display:flex;
 }
 
 header img{
@@ -8,5 +9,9 @@ header img{
 }
 
 ul{
+  font-family: 'Roboto';
+}
+
+ul li{  
   display:inline;
 }
