@@ -1,7 +1,7 @@
 body{
   background-image:url("/images/rooftop.jpg");
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:100% 100%;
   height:40rem;
 }
 
