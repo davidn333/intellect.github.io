@@ -5,6 +5,10 @@ body{
   height:40rem;
 }
 
+a{
+  text-decoration:none;
+}
+
 header{
   background: #f7f7f7;
   height:5rem;
