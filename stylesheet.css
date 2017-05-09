@@ -8,7 +8,7 @@ header{
   background: #f7f7f7;
   height:5rem;
   display:flex;
-  position:fixed;
+  /*position:fixed;*/
   overflow:hidden;
   opacity:0.9;
 }
@@ -60,7 +60,8 @@ ul li{
   position:absolute;
   text-align:center;  
   top:5.5rem;
-  width:12.5rem;    
+  width:12.5rem;
+  z-index:1;
 }
 
 .dropdown ul{
