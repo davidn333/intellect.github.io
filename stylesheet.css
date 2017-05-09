@@ -1,6 +1,6 @@
 body{
   background-image:url("/images/rooftop.jpg");
-  background-repeat:norepeat;
+  background-repeat:no-repeat;
   background-size:contain;  
 }
 
