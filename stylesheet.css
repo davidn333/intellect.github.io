@@ -5,7 +5,7 @@ header{
 }
 
 header img{
-  margin:5%;
+  /*margin:5%;*/
 }
 
 ul{
@@ -14,4 +14,6 @@ ul{
 
 ul li{  
   display:inline;
+  vertical-align:middle;
+  margin-left:5rem;
 }
