@@ -75,3 +75,13 @@ ul li{
   font-size:1rem;
   display:block;
 }
+
+.dropdown ul li:hover{
+  color:#74d14c;
+}
+
+.shpock{
+  display:flex;
+  justify-content:center;
+  top:40%;
+}
